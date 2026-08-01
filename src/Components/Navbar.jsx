@@ -10,7 +10,7 @@ function Navbar() {
   const [MobileMenu, setMobileMenu] = useState(false);
   return (
     <>
-      <nav className="bg-white/80 shadow-lg fixed w-full  backdrop-blur-2xl">
+      <nav className="bg-white/80 shadow-lg fixed w-full backdrop-blur-2xl">
         <div className="app-container flex justify-between items-center p-4">
           <a href="" className="gradient-text">
             Ahmed

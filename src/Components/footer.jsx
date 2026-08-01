@@ -123,7 +123,7 @@ export const Footer = () => {
             ))}
           </div>
         </div>
-        <div className="mx-15 my-15">
+        <div className="md:mx-15 sm:mx-10 my-15">
           <h1 className="mb-4">Stay Updated</h1>
           <p className="text-gray-400 mb-7 w-80">
             Subscribe to our newsletter for the latest AI insights and company

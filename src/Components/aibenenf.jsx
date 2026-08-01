@@ -142,7 +142,7 @@ export const Aibenenf = () => {
       >
         <div className="text-center">
           <span className="gradient-text font-bold mb-2">AI Benefits</span>
-          <h1 className="text-4xl mb-2">
+          <h1 className="md:text-4xl sm:text-lg mb-2">
             How Is Ai
             <span className="gradient-text mx-2 ">Transforming Our World</span>
           </h1>
@@ -158,7 +158,7 @@ export const Aibenenf = () => {
                 <span className=" text-blue-500">{item.icon}</span>
               </div>
               <h2 className="font-bold">{item.title}</h2>
-              <p className="mt-2 w-100 text-gray-200">{item.description}</p>
+              <p className="mt-2 lg:w-100 text-gray-400 ">{item.description}</p>
             </div>
           ))}
         </div>

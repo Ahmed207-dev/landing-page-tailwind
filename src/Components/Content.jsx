@@ -96,12 +96,12 @@ export const Content = () => {
             </div>
           ))}
         </div>
-        <div className="flex-1 bg-white shadow-lg rounded-lg p-6">
+        <div className="flex-1 w-full bg-white shadow-lg rounded-lg p-6">
           <form action="">
             <div className="p-4 flex flex-col">
               <label htmlFor="">Full Name</label>
               <input
-                className="border p-2 border-gray-300 rounded-lg outline-none"
+                className="border p-2 sm:w-44 md:w-full border-gray-300 rounded-lg outline-none"
                 type="text"
                 name=""
                 id=""
@@ -110,7 +110,7 @@ export const Content = () => {
             <div className="p-4 flex flex-col ">
               <label htmlFor="">Email</label>
               <input
-                className="border p-2 border-gray-300 rounded-lg outline-none"
+                className="border p-2 border-gray-300 rounded-lg outline-none sm:w-44 md:w-full"
                 type="email"
                 name=""
                 id=""
@@ -119,7 +119,7 @@ export const Content = () => {
             <div className="p-4 flex flex-col">
               <label htmlFor="">Subject</label>
               <input
-                className="border p-2 border-gray-300 rounded-lg outline-none"
+                className="border p-2 border-gray-300 rounded-lg outline-none sm:w-44 md:w-full"
                 type="text"
                 name=""
                 id=""
