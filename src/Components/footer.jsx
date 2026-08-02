@@ -123,7 +123,7 @@ export const Footer = () => {
             ))}
           </div>
         </div>
-        <div className="md:mx-15 sm:mx-10 my-15">
+        <div className="md:mx-15 mx-10 my-15">
           <h1 className="mb-4">Stay Updated</h1>
           <p className="text-gray-400 mb-7 w-80">
             Subscribe to our newsletter for the latest AI insights and company
@@ -143,9 +143,9 @@ export const Footer = () => {
             We respect your privacy. Unsubscribe at any time
           </p>
         </div>
-        <div className="mx-15 text-gray-400 text-sm border-t border-gray-700 py-2 flex md:justify-between flex-col justify-center items-center md:flex-row">
+        <div className="mx-15 text-gray-400 text-sm border-t border-gray-700 py-2 flex md:justify-between flex-col justify-center items-center  md:flex-row">
           <p> © 2025 AI Revolution. All rights reserved.</p>
-          <div className="flex gap-4 ">
+          <div className="flex gap-4 mt-2">
             <a className="hover:text-gray-300 transition" href="#">
               Terms of Service
             </a>
