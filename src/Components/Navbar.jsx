@@ -11,7 +11,7 @@ function Navbar() {
   return (
     <>
       <nav className="bg-white md:bg-white/70 shadow-lg fixed w-full backdrop-blur-2xl">
-        <div className="app-container flex justify-between items-center p-4">
+        <div className="app-container flex justify-between items-center md:p-6 p-2">
           <a href="" className="gradient-text">
             Ahmed
           </a>

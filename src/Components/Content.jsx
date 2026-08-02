@@ -69,7 +69,7 @@ const contactDetails = [
 export const Content = () => {
   return (
     <>
-      <div id="contact" className="m-20 flex gap-4 flex-wrap ">
+      <div id="contact" className="md:m-20 gap-4  m-8 flex flex-wrap ">
         <div className="flex-1">
           <div>
             <span className="gradient-text my-4">Get in touch</span>
@@ -96,7 +96,7 @@ export const Content = () => {
             </div>
           ))}
         </div>
-        <div className="flex-1 w-full  bg-white shadow-lg rounded-lg p-6 ">
+        <div className="flex-1 w-full  bg-white shadow-lg rounded-lg md:p-6 p-2 ">
           <form action="">
             <div className="p-4 flex flex-col">
               <label htmlFor="">Full Name</label>
