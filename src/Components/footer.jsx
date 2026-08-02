@@ -131,11 +131,11 @@ export const Footer = () => {
           </p>
           <form className="flex gap-2">
             <input
-              className="bg-white/4 p-2 rounded-lg outline-none"
+              className="bg-white/4 p-2 rounded-lg outline-none w-40 md:w-50"
               placeholder="Your email"
               type="text"
             />
-            <button className="bg-blue-500 p-2 rounded-lg transition hover:bg-blue-400 ">
+            <button className="bg-blue-500 p-0 md:p-2 rounded-lg transition hover:bg-blue-400 ">
               Subscribe
             </button>
           </form>
@@ -143,7 +143,7 @@ export const Footer = () => {
             We respect your privacy. Unsubscribe at any time
           </p>
         </div>
-        <div className="mx-15 text-gray-400 text-sm border-t border-gray-700 py-2 flex md:justify-between sm:flex-col sm:justify-center sm:items-center md:flex-row">
+        <div className="mx-15 text-gray-400 text-sm border-t border-gray-700 py-2 flex md:justify-between flex-col justify-center items-center md:flex-row">
           <p> © 2025 AI Revolution. All rights reserved.</p>
           <div className="flex gap-4 ">
             <a className="hover:text-gray-300 transition" href="#">

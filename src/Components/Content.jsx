@@ -96,7 +96,7 @@ export const Content = () => {
             </div>
           ))}
         </div>
-        <div className="flex-1 w-full bg-white shadow-lg rounded-lg p-6">
+        <div className="flex-1 w-full  bg-white shadow-lg rounded-lg p-6 ">
           <form action="">
             <div className="p-4 flex flex-col">
               <label htmlFor="">Full Name</label>

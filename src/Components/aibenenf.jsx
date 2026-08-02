@@ -142,7 +142,7 @@ export const Aibenenf = () => {
       >
         <div className="text-center">
           <span className="gradient-text font-bold mb-2">AI Benefits</span>
-          <h1 className="md:text-4xl sm:text-lg mb-2">
+          <h1 className="md:text-4xl text-lg mb-2">
             How Is Ai
             <span className="gradient-text mx-2 ">Transforming Our World</span>
           </h1>
