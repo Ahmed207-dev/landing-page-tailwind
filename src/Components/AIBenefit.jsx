@@ -133,7 +133,7 @@ const benefits = [
   },
 ];
 
-export const Aibenenf = () => {
+export const AIBenefit = () => {
   return (
     <>
       <div

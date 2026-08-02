@@ -1,5 +1,5 @@
-import { Aibenenf } from "../Components/aibenenf";
-import { Aitype } from "../Components/aitype";
+import { AIBenefit } from "../Components/AIBenefit";
+import { AIYype } from "../Components/AIType";
 import { Content } from "../Components/Content";
 import { Footer } from "../Components/footer";
 import { Hero } from "../Components/Hero";
@@ -11,8 +11,8 @@ export const Home = () => {
       <Navbar />
       <main>
         <Hero />
-        <Aitype />
-        <Aibenenf />
+        <AIYype />
+        <AIBenefit />
         <Content />
       </main>
       <Footer />
