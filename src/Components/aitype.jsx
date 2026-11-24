@@ -100,7 +100,7 @@ export const aIYype = () => {
           </p>
         </div>
         <div className="flex flex-wrap gap-6 justify-center ">
-          {aiTypes.map((item, index) => {
+          {AIYype.map((item, index) => {
             return (
               <div
                 key={index}
