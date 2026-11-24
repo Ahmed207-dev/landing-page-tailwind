@@ -82,7 +82,7 @@ const AIYype  = [
   },
 ];
 
-export const AIYype = () => {
+export const aIYype = () => {
   return (
     <>
       <div id="types" className="">
