@@ -1,4 +1,4 @@
-const AIYype  = [
+const aiTypesList = [
   {
     title: "Machine Learning",
     description:
@@ -82,17 +82,17 @@ const AIYype  = [
   },
 ];
 
-export const aIYype = () => {
+export const AIType = () => {
   return (
     <>
       <div id="types" className="">
         <div className="items-center text-center mt-24 flex justify-center flex-col ">
           <span className="gradient-text text-lg mb-4 font-bold">
-          AI Technologies
+            AI Technologies
           </span>
           <span className="md:text-7xl text-4xl ">
-            Types of AI Intelligence{" "}
-            <span className="gradient-text mb-4">Ai Inteligente</span>
+            Types of{" "}
+            <span className="gradient-text mb-4">AI Intelligence</span>
           </span>
           <p className="my-6 font-bold">
             Explore the diverse landscape of AI technologies that are shaping
@@ -100,7 +100,7 @@ export const aIYype = () => {
           </p>
         </div>
         <div className="flex flex-wrap gap-6 justify-center ">
-          {AIYype.map((item, index) => {
+          {aiTypesList.map((item, index) => {
             return (
               <div
                 key={index}
