@@ -1,4 +1,4 @@
-const aiTypes = [
+const AIYype  = [
   {
     title: "Machine Learning",
     description:
