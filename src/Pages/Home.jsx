@@ -11,7 +11,7 @@ export const Home = () => {
       <Navbar />
       <main>
         <Hero />
-        <AIYype />
+        <AIType  />
         <AIBenefit />
         <Content />
       </main>
