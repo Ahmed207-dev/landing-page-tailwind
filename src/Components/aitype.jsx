@@ -88,14 +88,14 @@ export const AIYype = () => {
       <div id="types" className="">
         <div className="items-center text-center mt-24 flex justify-center flex-col ">
           <span className="gradient-text text-lg mb-4 font-bold">
-            ai Technilogies
+          AI Technologies
           </span>
           <span className="md:text-7xl text-4xl ">
-            diffrent of{" "}
+            Types of AI Intelligence{" "}
             <span className="gradient-text mb-4">Ai Inteligente</span>
           </span>
           <p className="my-6 font-bold">
-            Explore the diverce landscape of AI technologies that are shaping
+            Explore the diverse landscape of AI technologies that are shaping
             our future.
           </p>
         </div>
