@@ -1,5 +1,5 @@
 import { AIBenefit } from "../Components/AIBenefit";
-import { AIYype } from "../Components/aitype";
+import { aIYype } from "../Components/aitype";
 import { Content } from "../Components/Content";
 import { Footer } from "../Components/footer";
 import { Hero } from "../Components/Hero";
