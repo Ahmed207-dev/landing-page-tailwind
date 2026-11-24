@@ -14,16 +14,16 @@ export const Hero = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 items-center">
           <div>
             <a className="gradient-text text-4xl flex mb-2 font-bold">
-              Ai Inteligente
+              Ai Intelligence
             </a>
             <a className=" text-4xl font-bold mb-2">For A Smarter future </a>
             <p className="w-90 mb-4">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Assumenda, architecto aperiam ad a obcaecati at saepe quae tempora
-              nemo fuga!
+              Empowering businesses and creators with next-generation 
+              artificial intelligence tools designed to automate 
+              workflows and boost productivity.
             </p>
             <button className="bg-indigo-500 text-white p-2 rounded-lg transition hover:bg-indigo-400">
-              Expolre AI Resloution
+              Explore AI Solutions
             </button>
             <button className="border border-gray-300 p-2 rounded-lg ml-5">
               Learn More
